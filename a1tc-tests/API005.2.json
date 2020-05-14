@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.2",
+    "Version" : "1.0",
     "Title" : "Behavioral Monitoring logs",
     "Description" : "Gets detection logs from Behavioral Monitoring engine",
     "Path" : "/WebApp/api/v1/logs/behaviormonitor_rule",

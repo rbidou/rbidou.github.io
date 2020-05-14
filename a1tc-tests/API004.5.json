@@ -1,5 +1,6 @@
 {
     "Reference" : "API004.5",
+    "Version" : "1.0",
     "Title" : "Server information",
     "Description" : "Collects information on all managed servers from TM product",
     "Path" : "/WebApp/API/ServerResource/ProductServers",

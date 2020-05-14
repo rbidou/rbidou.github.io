@@ -1,5 +1,6 @@
 {
     "Reference" : "API001.5",
+    "Version" : "1.0",
     "Title" : "Agent information",
     "Description" : "Collects information from all agents on one management server ",
     "Path" : "/WebApp/API/AgentResource/ProductAgents",

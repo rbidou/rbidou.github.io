@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.4",
+    "Version" : "1.0",
     "Title" : "C&C callbacks logs",
     "Description" : "Gets Command & Control detection logs",
     "Path" : "/WebApp/api/v1/logs/cncdetection",

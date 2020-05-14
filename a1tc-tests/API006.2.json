@@ -1,5 +1,6 @@
 {
     "Reference" : "API006.2",
+    "Version" : "1.0",
     "Title" : "Pattern update logs",
     "Description" : "Gets pattern update status logs",
     "Path" : "/WebApp/api/v1/logs/pattern_updated_status",

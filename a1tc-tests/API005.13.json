@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.13",
+    "Version" : "1.0",
     "Title" : "Application control logs",
     "Description" : "Gets detection logs from Application Control engine",
     "Path" : "/WebApp/api/v1/logs/EACV_Information",

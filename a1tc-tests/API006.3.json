@@ -1,5 +1,6 @@
 {
     "Reference" : "API006.3",
+    "Version" : "1.0",
     "Title" : "Engines update logs",
     "Description" : "Gets engines update status logs",
     "Path" : "/WebApp/api/v1/logs/engine_updated_status",

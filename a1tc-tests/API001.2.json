@@ -1,5 +1,6 @@
 {
     "Reference" : "API001.2",
+    "Version" : "1.0",
     "Title" : "Agent information",
     "Description" : "Collects specific agent information by entity GUID",
     "Path" : "/WebApp/API/AgentResource/ProductAgents",

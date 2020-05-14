@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.3",
+    "Version" : "1.0",
     "Title" : "Spyware logs",
     "Description" : "Gets Spyware/Grayware detection logs",
     "Path" : "/WebApp/api/v1/logs/spyware",

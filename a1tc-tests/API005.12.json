@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.12",
+    "Version" : "1.0",
     "Title" : "Sandbox logs",
     "Description" : "Gets detection logs from Sandbox",
     "Path" : "/WebApp/api/v1/logs/Sandbox_Detection_Log",

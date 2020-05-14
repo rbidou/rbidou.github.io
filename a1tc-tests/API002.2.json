@@ -1,5 +1,6 @@
 {
     "Reference" : "API002.2",
+    "Version" : "1.0",
     "Title" : "Isolate agent",
     "Description" : "Isolate specific agent based on its IP address",
     "Path" : "/WebApp/API/AgentResource/ProductAgents",

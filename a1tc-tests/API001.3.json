@@ -1,5 +1,6 @@
 {
     "Reference" : "API001.3",
+    "Version" : "1.0",
     "Title" : "Agent information",
     "Description" : "Collects specific agent information from IP address",
     "Path" : "/WebApp/API/AgentResource/ProductAgents",

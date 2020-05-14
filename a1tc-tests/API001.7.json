@@ -1,5 +1,6 @@
 {
     "Reference" : "API001.7",
+    "Version" : "1.0",
     "Title" : "EDR Agent information",
     "Description" : "Collects all information on agents running EDR engine",
     "Path" : "/WebApp/OSCE_iES/OsceIes/ApiEntry",

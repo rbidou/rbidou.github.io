@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.1",
+    "Version" : "1.0",
     "Title" : "Malware logs",
     "Description" : "Gets malware detection logs",
     "Path" : "/WebApp/api/v1/logs/officescan_virus",

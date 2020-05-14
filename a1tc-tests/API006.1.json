@@ -1,5 +1,6 @@
 {
     "Reference" : "API006.1",
+    "Version" : "1.0",
     "Title" : "User access logs",
     "Description" : "Gets logs of user access on managed products",
     "Path" : "/WebApp/api/v1/logs/Managed_Product_Logged_Information",

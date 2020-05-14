@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.7",
+    "Version" : "1.0",
     "Title" : "DLP logs",
     "Description" : "Gets detection logs from Data Loss Prevention engine",
     "Path" : "/WebApp/api/v1/logs/data_loss_prevention",

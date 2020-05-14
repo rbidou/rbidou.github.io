@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.10",
+    "Version" : "1.0",
     "Title" : "Content violation logs",
     "Description" : "Gets detection logs from Content Violation engine",
     "Path" : "/WebApp/api/v1/logs/security",

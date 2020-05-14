@@ -1,5 +1,6 @@
 {
     "Reference" : "API003.4",
+    "Version" : "1.0",
     "Title" : "Restore agent",
     "Description" : "Restore previously isolated agent based on its GUID",
     "Path" : "/WebApp/API/AgentResource/ProductAgents",

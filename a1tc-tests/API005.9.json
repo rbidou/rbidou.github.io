@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.9",
+    "Version" : "1.0",
     "Title" : "Web security logs",
     "Description" : "Gets detection logs from Web Security engine",
     "Path" : "/WebApp/api/v1/logs/web_security",

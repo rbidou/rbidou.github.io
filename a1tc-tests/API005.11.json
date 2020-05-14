@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.11",
+    "Version" : "1.0",
     "Title" : "Network content logs",
     "Description" : "Gets detection logs from Network Content Inspection engine",
     "Path" : "/WebApp/api/v1/logs/ncie",

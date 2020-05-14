@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.8",
+    "Version" : "1.0",
     "Title" : "Device control logs",
     "Description" : "Gets detection logs from Device Control engine",
     "Path" : "/WebApp/api/v1/logs/device_access_control",

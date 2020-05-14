@@ -1,5 +1,6 @@
 {
     "Reference" : "API004.1",
+    "Version" : "1.0",
     "Title" : "Server information",
     "Description" : "Collects managed server information from its hostname",
     "Path" : "/WebApp/API/ServerResource/ProductServers",

@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.5",
+    "Version" : "1.0",
     "Title" : "Suspicious files logs",
     "Description" : "Gets suspicious files detection logs",
     "Path" : "/WebApp/api/v1/logs/filehashdetection",

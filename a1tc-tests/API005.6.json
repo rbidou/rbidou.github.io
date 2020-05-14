@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.6",
+    "Version" : "1.0",
     "Title" : "Machine Learning logs",
     "Description" : "Gets detection logs from Machine Learning engine",
     "Path" : "/WebApp/api/v1/logs/Predictive_Machine_Learning",

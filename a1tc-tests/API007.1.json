@@ -1,5 +1,6 @@
 {
     "Reference" : "API007.1",
+    "Version" : "1.0",
     "Title" : "Filename RCA",
     "Description" : "Generate Root Cause Analysis upon specific filename",
     "Path" : "/WebApp/OSCE_iES/OsceIes/ApiEntry",

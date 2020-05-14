@@ -1,5 +1,6 @@
 {
     "Reference" : "API005.14",
+    "Version" : "1.0",
     "Title" : "ADE logs",
     "Description" : "Gets detection logs from Attack Discovery engine",
     "Path" : "/WebApp/api/v1/logs/Attack_Discovery_Detections",

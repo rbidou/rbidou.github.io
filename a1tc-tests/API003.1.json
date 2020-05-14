@@ -1,5 +1,6 @@
 {
     "Reference" : "API003.1",
+    "Version" : "1.0",
     "Title" : "Restore agent",
     "Description" : "Restore previously isolated agent based on its hostname",
     "Path" : "/WebApp/API/AgentResource/ProductAgents",

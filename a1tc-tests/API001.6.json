@@ -1,5 +1,6 @@
 {
     "Reference" : "API001.6",
+    "Version" : "1.0",
     "Title" : "Agent information",
     "Description" : "Collects all information on agents protected by specific product",
     "Path" : "/WebApp/API/AgentResource/ProductAgents",
