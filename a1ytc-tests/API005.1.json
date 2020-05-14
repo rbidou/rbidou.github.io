@@ -1,0 +1,19 @@
+{
+    "Reference" : "API005.1",
+    "Title" : "Malware logs",
+    "Description" : "Gets malware detection logs",
+    "Path" : "/WebApp/api/v1/logs/officescan_virus",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "page_token",
+            "class_attribute" : "log_page_token",
+            "location" : "qstring"
+        },
+        {
+            "variable" : "since_time",
+            "class_attribute" : "log_since_time",
+            "location" : "qstring"
+        }
+    ]
+}

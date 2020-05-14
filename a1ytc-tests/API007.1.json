@@ -1,0 +1,51 @@
+{
+    "Reference" : "API007.1",
+    "Title" : "Filename RCA",
+    "Description" : "Generate Root Cause Analysis upon specific filename",
+    "Path" : "/WebApp/OSCE_iES/OsceIes/ApiEntry",
+    "Method" : "POST",
+    "Params" : [ 
+        { 
+            "class_attribute" : "agent_entity_id",
+            "location" : "local"
+        },
+        { 
+            "class_attribute" : "server_entity_id",
+            "location" : "local"            
+        },
+        {
+            "class_attribute" : "rca_name",
+            "location" : "local"
+        },
+        {
+            "class_attribute" : "file_name",
+            "location" : "local"
+        }
+
+    ],
+    "JSON" : { 
+        "Payload" : {
+            "agentGuid" : {
+                "__server_entity_id__" : [ "__agent_entity_id__" ]
+            },
+            "name" : "__rca_name__",
+            "retroCriteria" : {
+                "item": [ 
+                    {
+                        "condition" : "IS",
+                        "typeId" : 3,
+                        "value" : [ "__file_name__" ]
+                    }
+                ],
+                "operator" : "AND"
+            },
+            "scanType" : 0,
+            "serverGuid" : [ "__server_entity_id__" ],
+            "timeRange" : {
+                "rangeType" : "ANY"
+            }
+        },
+        "TaskType" : 4,
+        "Url" : "V1/Task/CreateScan" 
+    }
+}

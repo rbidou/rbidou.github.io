@@ -1,0 +1,24 @@
+{
+    "Reference" : "API003.1",
+    "Title" : "Restore agent",
+    "Description" : "Restore previously isolated agent based on its hostname",
+    "Path" : "/WebApp/API/AgentResource/ProductAgents",
+    "Method" : "POST",
+    "Params" : [
+        { 
+            "variable" : "host_name",
+            "class_attribute" : "agent_host_name",
+            "location" : "jdata"
+        },
+        { 
+            "variable" : "act",
+            "value" : "cmd_restore_isolated_agent" ,
+            "location" : "jdata"           
+        },
+        { 
+            "variable" : "allow_multiple_match",
+            "value" : false,
+            "location" : "jdata"            
+        }
+    ]
+}

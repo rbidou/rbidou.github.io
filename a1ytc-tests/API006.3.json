@@ -1,0 +1,19 @@
+{
+    "Reference" : "API006.3",
+    "Title" : "Engines update logs",
+    "Description" : "Gets engines update status logs",
+    "Path" : "/WebApp/api/v1/logs/engine_updated_status",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "page_token",
+            "value" : "0",
+            "location" : "qstring"
+        },
+        {
+            "variable" : "since_time",
+            "class_attribute" : "log_since_time",
+            "location" : "qstring"
+        }
+    ]
+}

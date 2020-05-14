@@ -1,0 +1,14 @@
+{
+    "Reference" : "API004.5",
+    "Title" : "Server information",
+    "Description" : "Collects information on all managed servers from TM product",
+    "Path" : "/WebApp/API/ServerResource/ProductServers",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "product",
+            "class_attribute" : "product",
+            "location" : "qstring"
+        }
+    ]
+}

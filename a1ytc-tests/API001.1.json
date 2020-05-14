@@ -1,0 +1,14 @@
+{
+    "Reference" : "API001.1",
+    "Title" : "Agent information",
+    "Description" : "Collects specific agent information from hostname",
+    "Path" : "/WebApp/API/AgentResource/ProductAgents",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "host_name",
+            "class_attribute" : "agent_host_name",
+            "location" : "qstring"
+        }
+    ]
+}

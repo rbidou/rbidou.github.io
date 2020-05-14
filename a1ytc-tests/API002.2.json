@@ -1,0 +1,24 @@
+{
+    "Reference" : "API002.2",
+    "Title" : "Isolate agent",
+    "Description" : "Isolate specific agent based on its IP address",
+    "Path" : "/WebApp/API/AgentResource/ProductAgents",
+    "Method" : "POST",
+    "Params" : [        
+        { 
+            "variable" : "ip_address",
+            "class_attribute" : "agent_ip",
+            "location" : "jdata"
+        },
+        { 
+            "variable" : "act",
+            "value" : "cmd_isolate_agent",
+            "location" : "jdata"          
+        },
+        { 
+            "variable" : "allow_multiple_match",
+            "value" : false,
+            "location" : "jdata"       
+        }
+    ]
+}

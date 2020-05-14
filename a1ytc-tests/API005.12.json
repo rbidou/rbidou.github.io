@@ -1,0 +1,19 @@
+{
+    "Reference" : "API005.12",
+    "Title" : "Sandbox logs",
+    "Description" : "Gets detection logs from Sandbox",
+    "Path" : "/WebApp/api/v1/logs/Sandbox_Detection_Log",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "page_token",
+            "class_attribute" : "log_page_token",
+            "location" : "qstring"
+        },
+        {
+            "variable" : "since_time",
+            "class_attribute" : "log_since_time",
+            "location" : "qstring"
+        }
+    ]
+}

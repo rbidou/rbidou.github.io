@@ -1,0 +1,14 @@
+{
+    "Reference" : "API001.5",
+    "Title" : "Agent information",
+    "Description" : "Collects information from all agents on one management server ",
+    "Path" : "/WebApp/API/AgentResource/ProductAgents",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "managing_server_id",
+            "class_attribute" : "managing_server_id",
+            "location" : "qstring"
+        }
+    ]
+}

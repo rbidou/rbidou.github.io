@@ -1,0 +1,14 @@
+{
+    "Reference" : "API004.3",
+    "Title" : "Server information",
+    "Description" : "Collects managed server information from its MAC address",
+    "Path" : "/WebApp/API/ServerResource/ProductServers",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "mac_address",
+            "class_attribute" : "server_mac",
+            "location" : "qstring"
+        }
+    ]
+}

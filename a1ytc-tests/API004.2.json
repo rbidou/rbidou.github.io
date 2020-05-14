@@ -1,0 +1,14 @@
+{
+    "Reference" : "API004.2",
+    "Title" : "Server information",
+    "Description" : "Collects managed server information form its IP address",
+    "Path" : "/WebApp/API/ServerResource/ProductServers",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "ip_address",
+            "class_attribute" : "server_ip",
+            "location" : "qstring"
+        }
+    ]
+}

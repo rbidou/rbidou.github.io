@@ -1,0 +1,19 @@
+{
+    "Reference" : "API001.7",
+    "Title" : "EDR Agent information",
+    "Description" : "Collects all information on agents running EDR engine",
+    "Path" : "/WebApp/OSCE_iES/OsceIes/ApiEntry",
+    "Method" : "PUT",
+    "Params" : [ ],
+    "JSON": {
+        "Payload" : {
+            "filter" : [],
+            "pagination": {
+                "limit": 50,
+                "offset": 0
+            }
+        },            
+        "TaskType" : 4,
+        "Url" : "V1/Task/ShowAgentList"
+    }
+}

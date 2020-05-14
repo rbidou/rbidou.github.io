@@ -1,0 +1,14 @@
+{
+    "Reference" : "API001.2",
+    "Title" : "Agent information",
+    "Description" : "Collects specific agent information by entity GUID",
+    "Path" : "/WebApp/API/AgentResource/ProductAgents",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "entity_id",
+            "class_attribute" : "agent_entity_id",
+            "location" : "qstring"
+        }
+    ]
+}

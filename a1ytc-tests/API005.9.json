@@ -1,0 +1,19 @@
+{
+    "Reference" : "API005.9",
+    "Title" : "Web security logs",
+    "Description" : "Gets detection logs from Web Security engine",
+    "Path" : "/WebApp/api/v1/logs/web_security",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "page_token",
+            "class_attribute" : "log_page_token",
+            "location" : "qstring"
+        },
+        {
+            "variable" : "since_time",
+            "class_attribute" : "log_since_time",
+            "location" : "qstring"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "Reference" : "API004",
+    "Title" : "Server information",
+    "Description" : "Collects information on all managed servers",
+    "Path" : "/WebApp/API/ServerResource/ProductServers",
+    "Method" : "GET",
+    "Params" : [  ]
+}

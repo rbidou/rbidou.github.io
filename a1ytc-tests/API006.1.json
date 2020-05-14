@@ -1,0 +1,19 @@
+{
+    "Reference" : "API006.1",
+    "Title" : "User access logs",
+    "Description" : "Gets logs of user access on managed products",
+    "Path" : "/WebApp/api/v1/logs/Managed_Product_Logged_Information",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "page_token",
+            "class_attribute" : "log_page_token",
+            "location" : "qstring"
+        },
+        {
+            "variable" : "since_time",
+            "class_attribute" : "log_since_time",
+            "location" : "qstring"
+        }
+    ]
+}

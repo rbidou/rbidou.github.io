@@ -1,0 +1,19 @@
+{
+    "Reference" : "API005.7",
+    "Title" : "DLP logs",
+    "Description" : "Gets detection logs from Data Loss Prevention engine",
+    "Path" : "/WebApp/api/v1/logs/data_loss_prevention",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "page_token",
+            "class_attribute" : "log_page_token",
+            "location" : "qstring"
+        },
+        {
+            "variable" : "since_time",
+            "class_attribute" : "log_since_time",
+            "location" : "qstring"
+        }
+    ]
+}

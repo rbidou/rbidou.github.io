@@ -1,0 +1,24 @@
+{
+    "Reference" : "API003.3",
+    "Title" : "Restore agent",
+    "Description" : "Restore previously isolated agent based on its MAC address",
+    "Path" : "/WebApp/API/AgentResource/ProductAgents",
+    "Method" : "POST",
+    "Params" : [
+        { 
+            "variable" : "mac_address",
+            "class_attribute" : "agent_mac",
+            "location" : "jdata"
+        },
+        { 
+            "variable" : "act",
+            "value" : "cmd_restore_isolated_agent" ,
+            "location" : "jdata"           
+        },
+        { 
+            "variable" : "allow_multiple_match",
+            "value" : false,
+            "location" : "jdata"            
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "Reference" : "API002.1",
+    "Title" : "Isolate agent",
+    "Description" : "Isolate specific agent based on its hostname",
+    "Path" : "/WebApp/API/AgentResource/ProductAgents",
+    "Method" : "POST",
+    "Params" : [
+        { 
+            "variable" : "host_name",
+            "class_attribute" : "agent_host_name",
+            "location" : "jdata"
+        },
+        { 
+            "variable" : "act",
+            "value" : "cmd_isolate_agent",
+            "location" : "jdata"          
+        },
+        { 
+            "variable" : "allow_multiple_match",
+            "value" : false,
+            "location" : "jdata"       
+        }
+    ]
+}

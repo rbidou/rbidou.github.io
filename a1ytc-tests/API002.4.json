@@ -1,0 +1,24 @@
+{
+    "Reference" : "API002.4",
+    "Title" : "Isolate agent",
+    "Description" : "Isolate specific agent based on its GUID",
+    "Path" : "/WebApp/API/AgentResource/ProductAgents",
+    "Method" : "POST",
+    "Params" : [
+        { 
+            "variable" : "entity_id",
+            "class_attribute" : "agent_entity_id",
+            "location" : "jdata"
+        },
+        { 
+            "variable" : "act",
+            "value" : "cmd_isolate_agent",
+            "location" : "jdata"          
+        },
+        { 
+            "variable" : "allow_multiple_match",
+            "value" : false,
+            "location" : "jdata"       
+        }
+    ]
+}

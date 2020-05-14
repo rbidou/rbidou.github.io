@@ -1,0 +1,14 @@
+{
+    "Reference" : "API004.1",
+    "Title" : "Server information",
+    "Description" : "Collects managed server information from its hostname",
+    "Path" : "/WebApp/API/ServerResource/ProductServers",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "host_name",
+            "class_attribute" : "server_host_name",
+            "location" : "qstring"
+        }
+    ]
+}

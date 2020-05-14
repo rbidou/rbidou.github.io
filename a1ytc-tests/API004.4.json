@@ -1,0 +1,14 @@
+{
+    "Reference" : "API004.4",
+    "Title" : "Server information",
+    "Description" : "Collects managed server information from GUID",
+    "Path" : "/WebApp/API/ServerResource/ProductServers",
+    "Method" : "GET",
+    "Params" : [
+        { 
+            "variable" : "entity_id",
+            "class_attribute" : "server_entity_id",
+            "location" : "qstring"
+        }
+    ]
+}

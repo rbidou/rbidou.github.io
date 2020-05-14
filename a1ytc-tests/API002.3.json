@@ -1,0 +1,24 @@
+{
+    "Reference" : "API002.3",
+    "Title" : "Isolate agent",
+    "Description" : "Isolate specific agent based on its MAC address",
+    "Path" : "/WebApp/API/AgentResource/ProductAgents",
+    "Method" : "POST",
+    "Params" : [
+        { 
+            "variable" : "mac_address",
+            "class_attribute" : "agent_mac",
+            "location" : "jdata"
+        },
+        { 
+            "variable" : "act",
+            "value" : "cmd_isolate_agent",
+            "location" : "jdata"          
+        },
+        { 
+            "variable" : "allow_multiple_match",
+            "value" : false,
+            "location" : "jdata"       
+        }
+    ]
+}
