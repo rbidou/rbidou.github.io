@@ -16,5 +16,6 @@
         },            
         "TaskType" : 4,
         "Url" : "V1/Task/ShowAgentList"
-    }
+    },
+    "Result": "Data.Data.content.0.content.agentEntity"
 }
