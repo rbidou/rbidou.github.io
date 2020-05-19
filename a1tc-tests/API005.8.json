@@ -18,7 +18,7 @@
         }
     ],
     "Store": {
-        "Data.NextPage.PageToken": "page_token",
-        "Data.NextPage.SinceTime": "since_time"
+        "Data.NextPage.PageToken": "log_page_token",
+        "Data.NextPage.SinceTime": "log_since_time"
     }
 }
