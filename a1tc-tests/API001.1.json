@@ -11,5 +11,10 @@
          "class_attribute": "agent_host_name",
          "location": "qstring"
       }
-   ]
+   ],
+   "Store": {
+      "result_content.0.entity_id": "agent_entity_id", 
+      "result_content.0.managing_server_id": "server_entity_id",
+      "result_content.0.product": "product"
+   }
 }

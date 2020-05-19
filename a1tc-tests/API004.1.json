@@ -11,5 +11,9 @@
             "class_attribute" : "server_host_name",
             "location" : "qstring"
         }
-    ]
+    ],
+    "Store": {
+       "result_content.0.entity_id": "server_entity_id",
+       "result_content.0.product": "product"
+    }
 }

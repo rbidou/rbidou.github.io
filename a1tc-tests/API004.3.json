@@ -11,5 +11,10 @@
             "class_attribute" : "server_mac",
             "location" : "qstring"
         }
-    ]
+    ],
+    "Store": {
+       "result_content.0.host_name": "server_host_name",
+       "result_content.0.entity_id": "server_entity_id", 
+       "result_content.0.product": "product"
+    }
 }

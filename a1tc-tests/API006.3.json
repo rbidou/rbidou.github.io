@@ -16,5 +16,9 @@
             "class_attribute" : "log_since_time",
             "location" : "qstring"
         }
-    ]
+    ],
+    "Store": {
+        "Data.NextPage.PageToken": "page_token",
+        "Data.NextPage.SinceTime": "since_time"
+    }
 }
