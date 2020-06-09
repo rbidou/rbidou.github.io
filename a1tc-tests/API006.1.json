@@ -1,6 +1,6 @@
 {
     "Reference" : "API006.1",
-    "Version" : "1.0",
+    "Version" : "1.01",
     "Title" : "User access logs",
     "Description" : "Gets logs of user access on managed products",
     "Path" : "/WebApp/api/v1/logs/Managed_Product_Logged_Information",
@@ -18,7 +18,7 @@
         }
     ],
     "Store": {
-        "Data.NextPage.PageToken": "page_token",
-        "Data.NextPage.SinceTime": "since_time"
+        "Data.NextPage.PageToken": "log_page_token",
+        "Data.NextPage.SinceTime": "log_since_time"
     }
 }

@@ -1,6 +1,6 @@
 {
     "Reference" : "API006.2",
-    "Version" : "1.0",
+    "Version" : "1.01",
     "Title" : "Pattern update logs",
     "Description" : "Gets pattern update status logs",
     "Path" : "/WebApp/api/v1/logs/pattern_updated_status",
@@ -18,7 +18,7 @@
         }
     ],
     "Store": {
-        "Data.NextPage.PageToken": "page_token",
-        "Data.NextPage.SinceTime": "since_time"
+        "Data.NextPage.PageToken": "log_page_token",
+        "Data.NextPage.SinceTime": "log_since_time"
     }
 }
