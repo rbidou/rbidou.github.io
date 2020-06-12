@@ -6,6 +6,11 @@
     "Path" : "/WebApp/api/v1/logs/Managed_Product_Logged_Information",
     "Method" : "GET",
     "Params" : [
+        {
+            "variable": "output_format",
+            "value": "CEF",
+            "location": "qstring"
+        },
         { 
             "variable" : "page_token",
             "class_attribute" : "log_page_token",

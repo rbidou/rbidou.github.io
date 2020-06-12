@@ -1,14 +1,19 @@
 {
-   "Reference": "API006.2",
-   "Version": "1.01",
-   "Title": "Pattern update logs",
-   "Description": "Gets pattern update status logs",
-   "Path": "/WebApp/api/v1/logs/pattern_updated_status",
+   "Reference": "API006.4",
+   "Version": "1.0",
+   "Title": "User access logs",
+   "Description": "Gets auditing events",
+   "Path": "/WebApp/api/v1/logs/product_auditing_events",
    "Method": "GET",
    "Params": [
       {
+         "variable": "output_format",
+         "value": "CEF",
+         "location": "qstring"
+      },
+      {
          "variable": "page_token",
-         "value": "0",
+         "class_attribute": "log_page_token",
          "location": "qstring"
       },
       {
