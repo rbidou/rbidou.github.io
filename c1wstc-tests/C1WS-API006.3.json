@@ -1,0 +1,9 @@
+{
+   "Reference": "C1WS-API006.3",
+   "Version": "1.0",
+   "Title": "System Security",
+   "Description": "Software changes",
+   "Path": "/softwarechanges",
+   "Method": "GET",
+   "Params": []
+}

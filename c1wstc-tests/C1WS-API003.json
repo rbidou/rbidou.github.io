@@ -1,0 +1,9 @@
+{
+    "Reference" : "C1WS-API003",
+    "Version" : "1.0",
+    "Title" : "Security Policies",
+    "Description" : "List security policies",
+    "Path" : "/policies",
+    "Method" : "GET",
+    "Params" : [ ]
+}

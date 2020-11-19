@@ -1,0 +1,25 @@
+{
+   "Reference": "C1WS-API005.4",
+   "Version": "1.0",
+   "Title": "Virtual Patching",
+   "Description": "Find rules by CVSS Score",
+   "Path": "/intrusionpreventionrules/search",
+   "Method": "POST",
+   "Params": [ 
+      { 
+         "variable" : "cvss_score",
+         "class_attribute" : "cvss_score",
+         "location" : "local"
+     }
+   ],
+   "JSON" : {
+        
+      "searchCriteria": [
+          {
+              "fieldName": "CVSSScore",
+              "numericTest": "greater-than-or-equal",
+              "numericValue": "__cvss_score__"
+          }
+      ]
+  }  
+}

@@ -1,0 +1,15 @@
+{
+   "Reference": "C1WS-API002.3",
+   "Version": "1.0",
+   "Title": "Computer security policies rules",
+   "Description": "Specific computer integrity monitoring rules",
+   "Path": "/computers/__computer_id__/integritymonitoring/rules",
+   "Method": "GET",
+   "Params": [
+      {
+         "variable": "computer_id",
+         "class_attribute": "computer_id",
+         "location": "path"
+      }
+   ]
+}

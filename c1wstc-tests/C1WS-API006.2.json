@@ -1,0 +1,25 @@
+{
+   "Reference": "C1WS-API006.2",
+   "Version": "1.0",
+   "Title": "System Security",
+   "Description": "Search integrity monitoring rules",
+   "Path": "/integritymonitoringrules/search",
+   "Method": "POST",
+   "Params": [ 
+        { 
+            "variable" : "search_pattern",
+            "class_attribute" : "search_pattern",
+            "location" : "local"
+        }
+   ],
+   "JSON" : {
+        
+      "searchCriteria": [
+        {
+            "fieldName": "name",
+            "stringTest": "equal",
+            "stringValue": "%__search_pattern__%"
+        }
+      ]
+  }  
+}

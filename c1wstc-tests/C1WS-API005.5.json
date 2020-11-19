@@ -1,0 +1,66 @@
+{
+   "Reference": "C1WS-API005.5",
+   "Version": "1.0",
+   "Title": "Virtual Patching",
+   "Description": "Advanced IPS rules search",
+   "Path": "/intrusionpreventionrules/search",
+   "Method": "POST",
+   "Params": [ 
+        { 
+            "variable" : "rule_name",
+            "class_attribute" : "rule_name",
+            "location" : "local"
+        },
+        { 
+            "variable" : "cvss_score",
+            "class_attribute" : "cvss_score",
+            "location" : "local"
+        },
+        { 
+            "variable" : "cve_id",
+            "class_attribute" : "cve_id",
+            "location" : "local"
+        },
+        { 
+            "variable" : "rule_type",
+            "class_attribute" : "rule_type",
+            "location" : "local"
+        },
+        { 
+            "variable" : "rule_severity",
+            "class_attribute" : "rule_severity",
+            "location" : "local"
+        }
+   ],
+   "JSON" : {
+        
+      "searchCriteria": [
+        {
+            "fieldName": "name",
+            "stringTest": "equal",
+            "stringValue": "%__rule_name__%"
+        },
+          
+        {
+            "fieldName": "CVSSScore",
+            "numericTest": "greater-than-or-equal",
+            "numericValue": "__cvss_score__"
+        },
+        {
+            "fieldName": "CVE",
+            "stringTest": "equal",
+            "stringValue": "%__cve_id__%"
+        },
+        {
+            "fieldName": "type",
+            "choiceTest": "equal",
+            "choiceValue": "__rule_type__"
+        },
+        {
+            "fieldName": "severity",
+            "choiceTest": "equal",
+            "choiceValue": "__rule_severity__"
+        }
+      ]
+  }  
+}

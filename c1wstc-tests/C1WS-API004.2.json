@@ -1,0 +1,15 @@
+{
+   "Reference": "C1WS-API004.2",
+   "Version": "1.0",
+   "Title": "Anti-Malware",
+   "Description": "Display specific anti-malware configurations",
+   "Path": "/antimalwareconfigurations/__antimalware_configuration_id__",
+   "Method": "GET",
+   "Params": [
+      {
+         "variable": "antimalware_configuration_id",
+         "class_attribute": "antimalware_configuration_id",
+         "location": "path"
+      }
+   ]
+}

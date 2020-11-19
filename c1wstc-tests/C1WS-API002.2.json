@@ -1,0 +1,15 @@
+{
+   "Reference": "C1WS-API002.2",
+   "Version": "1.0",
+   "Title": "Computer security policies rules",
+   "Description": "Specific computer virtual patching rules",
+   "Path": "/computers/__computer_id__/intrusionprevention/rules",
+   "Method": "GET",
+   "Params": [
+      {
+         "variable": "computer_id",
+         "class_attribute": "computer_id",
+         "location": "path"
+      }
+   ]
+}

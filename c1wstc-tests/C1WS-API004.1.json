@@ -1,0 +1,9 @@
+{
+   "Reference": "C1WS-API004.1",
+   "Version": "1.0",
+   "Title": "Anti-Malware",
+   "Description": "List anti-malware configurations",
+   "Path": "/antimalwareconfigurations",
+   "Method": "GET",
+   "Params": [ ]
+}

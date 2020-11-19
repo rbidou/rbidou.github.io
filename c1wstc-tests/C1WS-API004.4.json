@@ -1,0 +1,9 @@
+{
+   "Reference": "C1WS-API004.4",
+   "Version": "1.0",
+   "Title": "Anti-Malware",
+   "Description": "Display files lists",
+   "Path": "/filelists",
+   "Method": "GET",
+   "Params": [ ]
+}

@@ -1,0 +1,9 @@
+{
+   "Reference": "C1WS-API006.1",
+   "Version": "1.0",
+   "Title": "System Security",
+   "Description": "Integrity monitoring rules",
+   "Path": "/integritymonitoringrules",
+   "Method": "GET",
+   "Params": []
+}

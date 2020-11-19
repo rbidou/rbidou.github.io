@@ -1,0 +1,25 @@
+{
+    "Reference" : "C1WS-API003.2",
+    "Version" : "1.0",
+    "Title" : "Security Policies",
+    "Description" : "Search security policy by name",
+    "Path" : "/policies/search",
+    "Method" : "POST",
+    "Params" : [ 
+        { 
+            "variable" : "policy_name",
+            "class_attribute" : "policy_name",
+            "location" : "local"
+        }
+    ],
+    "JSON" : {
+        
+        "searchCriteria": [
+            {
+                "fieldName": "name",
+                "stringTest": "equal",
+                "stringValue": "%__policy_name__%"
+            }
+        ]
+    }    
+}

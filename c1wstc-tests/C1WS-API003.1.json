@@ -1,0 +1,15 @@
+{
+   "Reference": "C1WS-API003.1",
+   "Version": "1.0",
+   "Title": "Security Policies",
+   "Description": "Display specific security policy details",
+   "Path": "/policies/__security_policy_id__",
+   "Method": "GET",
+   "Params": [
+      {
+         "variable": "security_policy_id",
+         "class_attribute": "security_policy_id",
+         "location": "path"
+      }
+   ]
+}

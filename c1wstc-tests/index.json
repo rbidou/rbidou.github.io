@@ -1,0 +1,90 @@
+{
+   "C1WS-API001.1": {
+      "version": "1.0",
+      "filename": "C1WS-API001.1.json"
+   },
+   "C1WS-API001": {
+      "version": "1.0",
+      "filename": "C1WS-API001.json"
+   },
+   "C1WS-API002.1": {
+      "version": "1.0",
+      "filename": "C1WS-API002.1.json"
+   },
+   "C1WS-API002.2": {
+      "version": "1.0",
+      "filename": "C1WS-API002.2.json"
+   },
+   "C1WS-API002.3": {
+      "version": "1.0",
+      "filename": "C1WS-API002.3.json"
+   },
+   "C1WS-API003.1": {
+      "version": "1.0",
+      "filename": "C1WS-API003.1.json"
+   },
+   "C1WS-API003.2": {
+      "version": "1.0",
+      "filename": "C1WS-API003.2.json"
+   },
+   "C1WS-API003.3": {
+      "version": "1.0",
+      "filename": "C1WS-API003.3.json"
+   },
+   "C1WS-API003": {
+      "version": "1.0",
+      "filename": "C1WS-API003.json"
+   },
+   "C1WS-API004.1": {
+      "version": "1.0",
+      "filename": "C1WS-API004.1.json"
+   },
+   "C1WS-API004.2": {
+      "version": "1.0",
+      "filename": "C1WS-API004.2.json"
+   },
+   "C1WS-API004.3": {
+      "version": "1.0",
+      "filename": "C1WS-API004.3.json"
+   },
+   "C1WS-API004.4": {
+      "version": "1.0",
+      "filename": "C1WS-API004.4.json"
+   },
+   "C1WS-API005.1": {
+      "version": "1.0",
+      "filename": "C1WS-API005.1.json"
+   },
+   "C1WS-API005.2": {
+      "version": "1.0",
+      "filename": "C1WS-API005.2.json"
+   },
+   "C1WS-API005.3": {
+      "version": "1.0",
+      "filename": "C1WS-API005.3.json"
+   },
+   "C1WS-API005.4": {
+      "version": "1.0",
+      "filename": "C1WS-API005.4.json"
+   },
+   "C1WS-API005.5": {
+      "version": "1.0",
+      "filename": "C1WS-API005.5.json"
+   },
+   "C1WS-API006.1": {
+      "version": "1.0",
+      "filename": "C1WS-API006.1.json"
+   },
+   "C1WS-API006.2": {
+      "version": "1.0",
+      "filename": "C1WS-API006.2.json"
+   },
+   "C1WS-API006.3": {
+      "version": "1.0",
+      "filename": "C1WS-API006.3.json"
+   },
+   "C1WS-API006.4": {
+      "version": "1.0",
+      "filename": "C1WS-API006.4.json"
+   }
+}

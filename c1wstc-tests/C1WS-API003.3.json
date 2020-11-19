@@ -1,0 +1,9 @@
+{
+    "Reference" : "C1WS-API003.3",
+    "Version" : "1.0",
+    "Title" : "Security Policies",
+    "Description" : "List default settings",
+    "Path" : "/policies/default",
+    "Method" : "GET",
+    "Params" : [ ]
+}

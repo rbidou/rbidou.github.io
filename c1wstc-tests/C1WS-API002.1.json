@@ -1,0 +1,15 @@
+{
+   "Reference": "C1WS-API002.1",
+   "Version": "1.0",
+   "Title": "Computer security policies",
+   "Description": "Specific computer firewall rules",
+   "Path": "/computers/__computer_id__/firewall/rules",
+   "Method": "GET",
+   "Params": [
+      {
+         "variable": "computer_id",
+         "class_attribute": "computer_id",
+         "location": "path"
+      }
+   ]
+}

@@ -1,0 +1,15 @@
+{
+   "Reference": "C1WS-API005.2",
+   "Version": "1.0",
+   "Title": "Virtual Patching",
+   "Description": "Display specific intrusion pevention rule",
+   "Path": "/intrusionpreventionrules/__ips_rule_id__",
+   "Method": "GET",
+   "Params": [
+      {
+         "variable": "ips_rule_id",
+         "class_attribute": "ips_rule_id",
+         "location": "path"
+      }
+   ]
+}

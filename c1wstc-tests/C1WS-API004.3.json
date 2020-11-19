@@ -1,0 +1,9 @@
+{
+   "Reference": "C1WS-API004.3",
+   "Version": "1.0",
+   "Title": "Anti-Malware",
+   "Description": "List files extensions",
+   "Path": "/fileextensionlists",
+   "Method": "GET",
+   "Params": [ ]
+}

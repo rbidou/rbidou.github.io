@@ -1,0 +1,25 @@
+{
+   "Reference": "C1WS-API005.3",
+   "Version": "1.0",
+   "Title": "Virtual Patching",
+   "Description": "Find rules by CVE",
+   "Path": "/intrusionpreventionrules/search",
+   "Method": "POST",
+   "Params": [ 
+      { 
+         "variable" : "cve_id",
+         "class_attribute" : "cve_id",
+         "location" : "local"
+     }
+   ],
+   "JSON" : {
+        
+      "searchCriteria": [
+          {
+              "fieldName": "CVE",
+              "stringTest": "equal",
+              "stringValue": "%__cve_id__%"
+          }
+      ]
+  }  
+}

@@ -1,0 +1,9 @@
+{
+   "Reference": "C1WS-API005.1",
+   "Version": "1.0",
+   "Title": "Virtual Patching",
+   "Description": "List intrusion prevention rules",
+   "Path": "/intrusionpreventionrules",
+   "Method": "GET",
+   "Params": [ ]
+}

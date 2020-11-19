@@ -1,0 +1,35 @@
+{
+   "Reference": "C1WS-API006.4",
+   "Version": "1.0",
+   "Title": "System Security",
+   "Description": "Search software changes",
+   "Path": "/softwarechanges/search",
+   "Method": "POST",
+   "Params": [ 
+        { 
+            "variable" : "file_name",
+            "class_attribute" : "file_name",
+            "location" : "local"
+        },
+        { 
+          "variable" : "computer_id",
+          "class_attribute" : "computer_id",
+          "location" : "local"
+      }
+   ],
+   "JSON" : {
+        
+      "searchCriteria": [
+        {
+            "fieldName": "fileName",
+            "stringTest": "equal",
+            "stringValue": "%__file_name__%"
+        },
+        {
+          "fieldName": "computerID",
+          "numericTest": "equal",
+          "numericValue": "__computer_id__"
+        }
+      ]
+  }  
+}

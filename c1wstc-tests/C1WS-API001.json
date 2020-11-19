@@ -1,0 +1,15 @@
+{
+    "Reference" : "C1WS-API001",
+    "Version" : "1.0",
+    "Title" : "Computer information",
+    "Description" : "Collects information from all computers",
+    "Path" : "/computers",
+    "Method" : "GET",
+    "Params" : [
+        {
+            "variable": "expand",
+            "class_attribute": "request_expand",
+            "location": "qstring"
+         }
+     ]
+}
